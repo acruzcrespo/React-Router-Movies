@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import SavedList from './Movies/SavedList';
 import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
+import { timingSafeEqual } from 'crypto';
 
 export default class App extends Component {
   constructor() {
